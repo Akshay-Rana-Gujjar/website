@@ -1,0 +1,300 @@
+body{
+padding:0;
+margin:0;
+
+}
+a{
+text-decoration:none;
+color:white;
+}
+
+.header{
+width:98.5%;
+box-shadow: 0 2px 10px rgba(0,0,0,0.42), 0 4px 15px rgba(0,0,0,0.45);
+background: #336699;
+padding:10px;
+Display:flex;
+justify-content:space-between;
+position: fixed;
+top: 0;
+height: 64px;
+}
+#menu{
+color:#fff;
+display:inline-block;
+padding:10px;
+margin-left:10px;
+line-height: 30px;
+height: 30px;
+margin-top: 10px;
+cursor: pointer;
+font-size: 150%;
+}
+
+.content
+{
+width:0;
+height:100%;
+background:#336699;
+position:fixed;
+top:0;
+left:0;
+transition:0.5s;
+overflow:hidden;
+box-shadow: 5px 0 5px rgba(0,0,0,0.40);
+z-index: 10;
+}
+.content > span{
+color:white;
+font-size:150%;
+float:right;
+padding:5px 5px;
+position:absolute;
+right:0;
+cursor: pointer;
+}
+.content span:hover {
+background: #2a5580;
+
+}
+
+.content .niit-image {
+width:227px;
+height:82px;
+margin:auto;
+margin-top:50px;
+display:block; 
+}
+
+
+.content .menu-link {
+
+overflow-y:auto;
+
+}
+
+.content ul{
+margin-top:30%;
+text-align:center;
+list-style:none;
+display: block;
+
+}
+.content ul li{
+padding:10px;
+padding-left:5px;
+font-size:150%;
+margin-bottom:7%;
+margin-right:8%;
+display: block;
+
+
+}
+
+.content a {
+    display: block;
+    transition: 0.3s;
+}
+.content-bg{
+    height: 100vh;
+    width: 99.6vw;
+    background: rgba(0,0,0,0.40);
+    z-index: 9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none 
+    
+}
+
+.header .logo img{
+height:55px;
+padding:0 20px;
+
+}
+.logo{
+Display:inline-block;
+
+}
+
+
+.navigation {
+float:right;
+margin-top:1.3%;
+margin-right:2%;;
+margin-left:auto;
+}
+.navigation div{
+float:right;
+}
+.navigation a {
+text-decoration:none;
+color:white;
+padding:10px;
+border-radius:12px;
+font-family:Verdana,Arial,sans-serif;
+}
+
+.active {
+background:#336699;
+
+}
+
+.navigation .active:hover {
+
+background: #2a5580;
+color: #fff;
+}
+
+a [class *= 'fa fa-' ]{
+color:#336699;
+background:white;
+border-radius:50%;
+padding:10px;
+}
+a .fa-facebook{
+padding-right:13px;
+padding-left:13px;
+}
+a [class *= 'fa fa-']:hover{
+background: #2a5580;
+color: white;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+    background-color: #fff;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    background-color: #2a5580;
+}
+::-webkit-scrollbar-thumb:hover {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.7); 
+}
+
+
+.hero-image{
+    margin-top: 115px;
+    
+
+}
+.hero-image  img{
+    display: block;
+    margin: auto;
+    width: 1200px;
+}
+
+.placement-div{
+    border: 1px solid rgba(161, 161, 161, 0.39);
+    box-shadow: 0 5px 5px rgba(0,0,0,0.40);
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    border-radius: 10px;
+    
+}
+.placement-head{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 35px;
+    color: #808080;
+}
+.placement-div .vintage-image {
+    margin-top: -50px;
+    margin-left: -70px;
+    width: 10%;
+    position: absolute;
+    filter: grayscale(100%);
+    z-index: -1;
+}
+
+.parent-flex-div{
+     display: flex; 
+    justify-content: space-between;
+   width: 80%;
+   margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    
+}
+.flex-div{
+    width: 30%;
+    height: 450px;
+    box-shadow: 0 5px 22px rgba(0,0,0,0.22), 0 7px 25px rgba(0,0,0,0.25);
+    text-align: center;
+    padding: 10px;
+}
+.flex-div img{
+    display: block;
+    width: 150px;
+    
+     margin: auto;
+     border-radius: 50%; 
+     margin-top: 20px;
+    
+}
+.divider{
+    border-bottom: 1px solid rgba(161, 161, 161, 0.39);
+    width: 80%;
+    margin: 20px auto;
+    
+}
+.qoutes{
+    margin: auto;
+    height: 15%;
+    color: grey;
+}
+.footer-container{
+    background: #eeeeee;
+    color: #494949;
+    
+}
+
+.parent-footer-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.child-footer-flex{
+width: 30%;
+
+
+
+}
+.child-footer-flex h2{
+color: #999999;
+}
+.child-footer-flex p{
+    padding: 10px 0;
+}
+.quick-link {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.quick-link li{
+    padding:10px;
+}
+.quick-link a{
+    color: #494949;
+}
+
+
+
+.footer-copyright{
+    background: #999999;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
